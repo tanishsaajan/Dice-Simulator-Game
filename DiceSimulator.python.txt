@@ -1,0 +1,12 @@
+import random as np
+x=np.randint(1,6)
+print(x)
+p="y"
+n=input("Do you want to roll the dice again")
+while(p=="y"or p=="Y"):
+    if(n=="y"or n=="Y"):
+        v=np.randint(1,6)
+        print(v)
+        p=input("Type Y to roll again and N to exit")
+if(p=="n" or p=="N"):
+    print("Thank You")
